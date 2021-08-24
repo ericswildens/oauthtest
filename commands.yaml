@@ -1,0 +1,16 @@
+OpenCSI: 1.0
+info:
+  description: OAuth test
+  version: 1.0.0
+  title: OAuthTest
+  termsOfService: 'http://nimbella.com/demo/terms'
+  contact: demo@nimbella.com
+  license:
+     name: Apache 2.0
+     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+commands:
+  repos:
+     description: Lists repos for an organization
+     oauth: github
+     parameters:
+        - name: org
